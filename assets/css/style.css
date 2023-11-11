@@ -1,11 +1,14 @@
 *{
     margin: 0;
     box-sizing: border-box;
-
 }
 
 .navbar{
     background-color: #F4D03F;
+}
+
+.barranavegacion{
+    color: black;
 }
 
 .header{
@@ -21,37 +24,29 @@
     padding-left: 15px;
   }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-header{
+  header{
     padding: 50px;
     color: white;
     background-color: black;
 }
 
-#mifoto{
-    border-radius: 100px;
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
-.sobremi{
-    color: black;
-    background-color: #B2BABB;
+#mifoto{
+    border-radius: 100px;
+    float: left;
 }
+
 
 .educacion{
     color: black;
     background-color: #B2BABB;
-    gap: 100px;
+    padding-bottom: 20px;
 }
-
-
-
-
-
-
 
 .galeria{
     width: 1280px;
@@ -64,14 +59,33 @@ header{
     color: black;
 }
 
+
 h4{
     color: white;
     padding-top: 5px;
 }
 
+h5{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+section>p{
+    text-align: center;
+}
+
+section>h4{
+    text-decoration: underline;
+    padding: 0 auto auto 30px;
+    /* text-align: center; */
+}
+
+
 .cont1, .cont2, .cont3, .cont4{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding-top: 0px; */
+    padding-top: 50px;
 }
+
