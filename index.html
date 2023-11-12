@@ -6,22 +6,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <title>Currículum VCP</title>
+    <title>Mi Currículum</title>
 </head>
 <body>
 
   <ul class="nav justify-content-end py-1 navbar">
     <li class="nav-item">
-      <a class="nav-link" aria-current="page" href="#">Sobre mí</a>
+      <a class="nav-link text-dark" aria-current="page" href="#footer">Contacto</a>
+    </li> 
+    <li class="nav-item">
+      <a class="nav-link text-dark" href="#educacion">Educación</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Educación</a>
+      <a class="nav-link text-dark" href="#">Experiencia Laboral</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Experiencia Laboral</a>
-    </li>
-    <li class="nav-item">
-      <a href="" class="nav-link disabled">Portafolio</a>
+      <a href="#portafolio" class="nav-link text-dark">Portafolio</a>
     </li>
   </ul>
   
@@ -31,7 +31,7 @@
     <img id="mifoto" src="assets/imgs/fotomia.jpg" height="250" width="200" alt="foto de Vicky">
   </div>
     <div class="titulos">
-     <h1 class="text-warning">Hola! Soy Victoria Carrasco Pantanalli</h1>
+     <h1 class="text-warning">Hola! <em>Soy Victoria Carrasco Pantanalli</em></h1>
      <h2></h2><br>
      <p>Me gusta cocinar y hornear, la naturaleza y los gatos. <br>
       Me destaco por un trabajo orientado a los detalles, ser perseverante y responsable.<br><br>
@@ -41,50 +41,47 @@
   </div>
 </div>
   </header>
-  
-<section class="educacion">
-   <h5>Experiencia Laboral</h5>
-<p>2014-Actualidad: Servicio Anatomía Patológica Hospital Regional Coyhaique, Coyhaique</p>
-     <p>2012-2014: Servicio Anatomía Patológica Hospital Carlos Van Buren, Valparaíso</p>
-   
-     <h5>Educación</h5>
- <p>2023-2024: Desarrollo Fullstack Javascript Desafío Latam</p>
-<p>2007-2012. Universidad Nacional Andrés Bello, Viña del mar</p>
-<p>2001-2006. Liceo San Felipe Benicio, Coyhaique</p>
-</section>
- <!--  <a href="portafolio.html" target="_blank">Ver mi portafolio</a> -->
 
-  <section class="galeria">
+<section class="educacion">
+  <h5>Experiencia Laboral</h5>
+    <p>2014-Actualidad: Servicio Anatomía Patológica Hospital Regional Coyhaique, Coyhaique</p>
+    <p>2012-2014: Servicio Anatomía Patológica Hospital Carlos Van Buren, Valparaíso</p>
+
+    <br>
+    <hr>
+
+  <h5 id="educacion">Educación</h5>
+    <p>2023-2024: Desarrollo Fullstack Javascript Desafío Latam</p>
+    <p>2007-2012: Universidad Nacional Andrés Bello, Viña del mar</p>
+    <p>2001-2006: Liceo San Felipe Benicio, Coyhaique</p>
+</section>
+
+  <section id="portafolio" class="galeria">
     <div class="portafolio">
-    <!-- <h4>Mi portafolio</h4> -->
+
   </div>
     <div class="cont1">
-    <img src="assets/imgs/2.png" width="202px" height="202px" alt="img1">
-    <p>Web Panaderia</p>
+    <a href="assets/decoplantas/decoplantas.html"><img src="assets/imgs/1.png" width="202px" height="202px" alt="img1"></a>
+    <p>Deco Plantas</p>
     </div>
     <div class="cont2">
-    <img src="assets/imgs/3.png" width="202px" height="202px" alt="img2">
+   <a href="assets/desafio3-iguanapagevictoriacarrasco/"><img src="assets/imgs/3.png" width="202px" height="202px" alt="img2"></a>
   <p>Iguana Page</p>
   </div>
   <div class="cont3">
-    <img src="assets/imgs/4.png" width="202px" height="202px" alt="img3">
+    <a href="https://vickypantanalli.github.io/proyectocuppon/"><img src="assets/imgs/4.png" width="202px" height="202px" alt="img3"></a>
     <p>Cuppon</p>
   </div>
   <div class="cont4">
-    <img src="assets/imgs/miniaturacurriculum.png" width="202px" height="202px" alt="img3">
+    <a href="portafolio.html"><img src="assets/imgs/miniaturacurriculum.png" width="202px" height="202px" alt="img3"></a>
     <p>CV</p>
   </div>
 </section>
 
 
-  <footer class="bg-dark text-center text-light p-4">
-    
-
-      <p class="mb-0">Si quieres contactarme escríbeme a victoriapantanalli@gmail.com</p>
-  
-
+  <footer id="footer" class="bg-dark text-center text-light p-4">
+    <p class="mb-0">Si quieres contactarme escríbeme a victoriapantanalli@gmail.com</p>
   </footer>
 
-  
 </body>
 </html>

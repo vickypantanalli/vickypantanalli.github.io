@@ -5,10 +5,7 @@
 
 .navbar{
     background-color: #F4D03F;
-}
-
-.barranavegacion{
-    color: black;
+    text-decoration: none;
 }
 
 .header{
@@ -46,6 +43,7 @@
     color: black;
     background-color: #B2BABB;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .galeria{
