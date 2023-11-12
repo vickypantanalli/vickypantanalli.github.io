@@ -28,9 +28,13 @@
 }
 
 .container{
-    text-align: center;
     display: flex;
     justify-content: space-around;
+}
+
+.titulos>p{
+    text-align: justify;
+    width: 650px;
 }
 
 #mifoto{
@@ -41,7 +45,13 @@
 
 .educacion{
     color: black;
-    background-color: #B2BABB;
+    background-color: #c7cdcd;
+    padding-bottom: 20px;
+}
+
+.experiencia{
+    color: black;
+    background-color: #c7cdcd;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -76,9 +86,7 @@ section>p{
 section>h4{
     text-decoration: underline;
     padding: 0 auto auto 30px;
-    /* text-align: center; */
 }
-
 
 .cont1, .cont2, .cont3, .cont4{
     display: flex;
