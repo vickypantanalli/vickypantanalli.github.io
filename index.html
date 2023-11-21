@@ -9,30 +9,42 @@
 </head>
 <body>
 
-  <ul class="nav justify-content-end py-1 navbar">
-    <li class="nav-item">
-      <a class="nav-link text-dark" aria-current="page" href="#footer">Contacto</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-dark" href="#educacion">Educación</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-dark" href="#">Experiencia Laboral</a>
-    </li>
-    <li class="nav-item">
-      <a href="#portafolio" class="nav-link text-dark">Portafolio</a>
-    </li>
-  </ul>
+  <!--Nav inicio-->
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Vicky<a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="#footer">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#educacion">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Experiencia Laboral</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portafolio" class="nav-link text-dark">Portafolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--Nav final-->
 
-  <header>
-    <div class="container">
-    <div>
-    <img id="mifoto" src="assets/imgs/fotomia.jpg" height="250" width="200" alt="foto de Vicky">
-  </div>
+ <header class="herosection">
+  <div class="container">
+     <div>
+       <img id="mifoto" src="assets/imgs/fotomia.jpg" height="250" width="200" alt="foto de Vicky">
+     </div>
     <div class="titulos">
-     <h1 class="text-warning">Hola! <em>Soy Victoria Carrasco Pantanalli</em></h1>
-     <h2></h2><br>
-     <p> <br>
+     <h1>Hola! <em>Soy Victoria Carrasco Pantanalli</em></h1>
+     <br>
+     <p>
       Me destaco por un trabajo orientado a los detalles, ser perseverante y responsable.
       He trabajado en equipo por más de diez años, valorando lo importante que es tener distintos puntos de vista para entregar un resultado de calidad. <br>
       <br>Cuento con fuertes habilidades de comunicación tanto verbales como escritas.
@@ -41,7 +53,6 @@
      </p>
     </div>
   </div>
-</div>
   </header>
 
 <section class="experiencia">
@@ -61,30 +72,32 @@
   </div>
 </section>
 
-<section id="portafolio" class="galeria">
-    <div class="portafolio">
-      </div>
-        <div class="cont1">
+<section class="galeria">
+    <div>
+      <div class="row">
+        <div class="col-sm-12 col-md-3 cont1">
         <a href="https://vickypantanalli.github.io/proyectodecoplantas/" target="_blank"><img src="assets/imgs/1.png" width="202px" height="202px" alt="img1"></a>
         <p>Deco Plantas</p>
         </div>
-        <div class="cont2">
+        <div class="col-sm-12 col-md-3 cont1">
           <a href="https://vickypantanalli.github.io/iguanapage/" target="_blank"><img src="assets/imgs/3.png" width="202px" height="202px" alt="img2"></a>
           <p>Iguana Page</p>
           </div>
-          <div class="cont3">
+          <div class="col-sm-12 col-md-3 cont1">
             <a href="https://vickypantanalli.github.io/proyectocuppon/" target="_blank"><img src="assets/imgs/4.png" width="202px" height="202px" alt="img3"></a>
             <p>Cuppon</p>
           </div>
-          <div class="cont4">
+          <div class="cont1 col-sm-12 col-md-3">
             <a href="portafolio.html"><img src="assets/imgs/miniaturacurriculum.png" width="202px" height="202px" alt="img3"></a>
             <p>CV</p>
     </div>
+    </div>
 </section>
 
-  <footer id="footer" class="bg-dark text-center text-light p-4">
+  <footer class="bg-dark text-center text-light p-4 footer">
     <p class="mb-0">Si quieres contactarme escríbeme a victoriapantanalli@gmail.com</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
