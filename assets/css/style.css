@@ -47,7 +47,7 @@
 
   .titulos h1 {
     color: white;
-    text-align: left;
+    text-align: center;
   }
 
 #mifoto{
@@ -58,6 +58,7 @@
     color: black;
     background-color: #c7cdcd;
     padding-bottom: 20px;
+    
 }
 
 .experiencia{
@@ -70,7 +71,7 @@
 
 .galeria{
     max-width: 100%;
-    min-height: 350px;
+    min-height: 300px;
     display:flex;
     justify-content:center;
     align-items:center;
