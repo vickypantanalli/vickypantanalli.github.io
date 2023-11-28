@@ -12,51 +12,46 @@
     max-width: 100%;
     min-height: 100px;
     background-image: url(../imgs/hero.jpg);
+    background-color: rgb(94, 64, 24);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
 
 }
 
-/* .container{
+.container {
     display: flex;
     align-items: center;
-    justify-content: center;
-} */
+}
 
 .image{
     width: 100%;
 }
 
 .titulos{
-    text-align: right;
-    padding: 30px 0;
-    color: white;
     display: flex;
     flex-direction: column;
-    align-items: center ;
-  }
-
-  
-
-
-  .titulos p {
-    background-color: black;
+    justify-content: center;
+    padding: 30px 0;
     color: white;
-    max-width: 50%;
-    text-align: center;
-    /* margin-left: 200px; */
+    width: 80%;
+    padding-left: 4em;
+}
+
+.titulos p {
+    color: white;
+    width: 100%;
+    text-align: right;
   }
 
   .titulos h1 {
     color: white;
+    text-align: left;
   }
 
 #mifoto{
-    border-radius: 100px;
-    float: left;
-    margin-left: 50px;
-}
+    border-radius: 35%;
 
 .educacion{
     color: black;
@@ -81,14 +76,6 @@
     color: black;
 }
 
-/* @media (min-width: 60rem){
-    .row{
-        display: flex;
-        flex-direction: column;
-        gap: 20px
-    }
-} */
-
 h5{
     text-align: center;
     text-decoration: underline;
@@ -102,14 +89,4 @@ section>p{
 .row {
     display: flex;
     flex-direction: row;
-}
-/* 
-@media (max-width: 770px;))
-    .row {
-        flex-direction: column;
-    }
-} */
-
-.navbar, .herosection, .experiencia, .educacion, .footer {
-    max-width: 100%;
 }
